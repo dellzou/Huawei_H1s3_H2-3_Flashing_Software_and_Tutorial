@@ -55,6 +55,19 @@ d3110469d8cccc7ca479105393e047faef74c74cfb34d174deece84153ac1cc8  tools/通用/H
 
 `config.tar` 里是 22 个省份的 `cmcc_smart_*.xml`，`board.tar` 是单板配置。**原帖只给了文件，没写怎么加载**，仓库原样保存，不提供加载方法。日常改地区优先用 `hi_cfm` 命令。
 
+## 相关仓库
+
+同品牌其它机型，命令体系或刷机思路相近，排障时可以互相参照；每个仓库开头都对应一篇文章：
+
+- [华为 F30 工具包](https://github.com/dellzou/Huawei_F30_Flashing_Software_and_Tutorial)：改 SN、改 MAC、取超密
+- [华为 HN8145X6 工具包](https://github.com/dellzou/Huawei_HN8145X6_Flashing_Software_and_Tutorial)：补全 AllShell、改光模
+- [华为 HN8145XR 工具包](https://github.com/dellzou/Huawei_HN8145XR_Flashing_Software_and_Tutorial)：主猫改公版、从猫组网
+- [华为 HS8546V5 工具包](https://github.com/dellzou/Huawei_HS8546_Flashing_Software_and_Tutorial)：13 个分区与 jffs2 备份恢复
+- [华为 K662D 工具包](https://github.com/dellzou/Huawei_K662D_Flashing_Software_and_Tutorial)：从猫改光猫模式
+- [华为 V173-50 工具包](https://github.com/dellzou/Huawei_V173-50_Flashing_Software_and_Tutorial)：R24 装备包与 OBSCTool 日志
+- [华为 V173 工具包](https://github.com/dellzou/Huawei_V173_Flashing_Software_and_Tutorial)：补全 Shell、改公版、改 boardinfo
+- [华为 V175 工具包](https://github.com/dellzou/Huawei_V175_Flashing_Software_and_Tutorial)：R23 固件包开 Telnet
+
 ## 免责声明
 
 工具与配置包均来自公开论坛资料，仅供自有设备维修与学习使用。改地区、改 SN/MAC 有断网和变砖风险，操作前先备份 `/config/work/sysinfo.xml` 与 `lastgood.xml`。仓库不含任何真实设备的配置备份。
